@@ -36,7 +36,10 @@ print(f"Info: {metadata=}, {metadata.columns=}, {rightkey=}", flush=True)
 obs=x.obs.copy()
 obs.insert(loc=0, column='_index_', value=obs.index.astype(str))
 merged=obs.merge(metadata, how=args.type, left_on=args.key, right_on=rightkey)
-merged=merged.fillna(args.nastring)
+# Label the unmatched cells, but keep numeric columns numeric so that obs stays writable
+for column in merged.columns:
+	if merged[column].dtype==object:
+		merged[column]=merged[column].fillna(args.nastring)
 merged.index=merged['_index_']
 merged.index.name=None
 merged=merged.drop(columns=['_index_'])
