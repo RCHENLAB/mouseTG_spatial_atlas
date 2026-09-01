@@ -28,6 +28,7 @@ The pipeline is expected to run on standard Linux-based high-performance computi
 - Cell segmentation (2D) of the Xenium data
 - Cell annotation
 - 3D reconstruction
+- Post-Xenium VisiumHD analysis
 - Downstream analysis
 
 ### Versions of the software
