@@ -32,38 +32,20 @@ The pipeline is expected to run on standard Linux-based high-performance computi
 - Downstream analysis
 
 ### Versions of the software
-CellRanger: v7.0.0, v7.0.1, v7.1.0, and v7.2.0; 
-SoupX: v1.6.2;
-dropkick: v1.2.8;
-DoubletFinder: v2.0.4;
+
 scvi-tools: v1.2.0;
-NSForest: v4.0;
 Scanpy: v1.10.3;
-Velocyto: v0.17.17;
-scVelo: v0.3.3;
-escape: v2.7.3;
-hotspotsc: v1.1.3;
-hypeR: v2.10.0;
-edgeR: v4.4.0;
-variancePartition: v1.36.2;
-CellChat: v2.1;
-Enrichr: v3.4;
-cellranger-atac-2.0.0;
-ArchR package: v1.0.3;
-scGLUE: v0.3.2;
-SCENIC+ package: v1.0a2;
-Xenium Ranger: v3.1.0
-Seurat: v5.0.0 for scRNA/snRNA-related analyses and v5.3.0 for spatial-related analyses;
+Space Ranger: ?;
+Xenium Ranger: v3.1.0;
+Seurat: v5.3.0;
 Harmony: v1.2.3;
 spacexr: v2.2.1;
 Squidpy:  v1.6.2;
-MAGMA.Celltype:v2.0.8;
-LDSC: v1.0.1;
-EWCE: v1.16.0;
-susieR: v0.12.45.
+
 
 ## Interactive Browsers
 
+We are still working on it...
 
 ## Questions
 
