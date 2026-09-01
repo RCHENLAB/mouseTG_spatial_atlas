@@ -1,0 +1,7 @@
+side	sampleid	polygon	image
+left	Round1_Slide01_Section01	/path/to/polygon/Round1_Slide01_Section01_left.geojson	whole
+left	Round1_Slide01_Section02	/path/to/polygon/Round1_Slide01_Section02_left.geojson	whole
+left	Round3_Slide05_Section01	/path/to/polygon/Round3_Slide05_Section01_left.geojson	mask
+right	Round1_Slide01_Section01	/path/to/polygon/Round1_Slide01_Section01_right.geojson	mask
+right	Round1_Slide01_Section02	/path/to/polygon/Round1_Slide01_Section02_right.geojson	mask
+right	Round3_Slide05_Section01	/path/to/polygon/Round3_Slide05_Section01_right.geojson	mask

@@ -1,0 +1,15 @@
+Ntrk3high+Ntrk2
+Mrgprd
+Ntrk3high+S100a16
+Trpm8
+Th
+Ntrk3low+Ntrk2
+Calca+Bmpr1b
+Calca+Smr2
+Calca+Adra2a
+Sst
+Calca+Sstr2
+Calca+Oprk1
+Mrgpra3+Mrgprb4
+Mrgpra3+Trpv1
+Atf3

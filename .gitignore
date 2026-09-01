@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Pipeline outputs
+result/
+out_slurm/
+
+# Data files, deposited on the SPARC Data Portal rather than committed here
+*.h5ad
+*.zarr/
+*.parquet
+*.tif
+*.tiff
+*.npy
+*.pickle

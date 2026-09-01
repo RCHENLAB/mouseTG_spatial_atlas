@@ -1,0 +1,3 @@
+sampleid	xeniumstack	xeniumdir
+Round1_Slide01_Section01	/path/to/xenium_stack/Round1_Slide01_Section01.tif	/path/to/xeniumranger_import/Round1_Slide01_Section01/outs
+Round1_Slide01_Section02	/path/to/xenium_stack/Round1_Slide01_Section02.tif	/path/to/xeniumranger_import/Round1_Slide01_Section02/outs
