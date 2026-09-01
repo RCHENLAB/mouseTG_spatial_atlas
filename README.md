@@ -1,1 +1,69 @@
 # A three-dimensional spatial atlas of the mouse trigeminal ganglion
+
+This repository contains code and analyses for the spatial atlas of the mouse trigeminal ganglion (TG). This study was conducted as part of the [Restoring Joint Health and Function to Reduce Pain (RE-JOIN) Consortium](https://sparc.science/about/consortia/re-join), an [NIH HEAL Initiative](https://www.nih.gov/heal) program.
+
+## Experimental design
+
+The left and right trigeminal ganglia (TGs) from one adult wild-type C57BL/6 mouse (8-week-old, male) were serially sectioned at a thickness of 12 μm along the dorsoventral axis. All 87 sections spanning both TGs were profiled using the 10x Genomics Xenium platform with a customized gene panel ([10x Genomics Mouse Brain panel](https://www.10xgenomics.com/products/xenium-v1-panel), 97 additional genes, and 3 reporter genes).
+
+For each section, two-dimensional cell segmentation and cell-type annotation were performed to identify neuronal and non-neuronal cell populations. The annotated serial sections were subsequently spatially registered, and cellular and regional information was used to establish correspondence across sections and generate a common 3D spatial framework.
+
+
+## Data modalities
+
+The raw and processed datasets have been deposited in the SPARC Data Portal under DOI 10.26275/h2w2-fgau, and will be made publicly available upon publication.
+
+- Xenium: 87 serial sections profiled using a customized gene panel
+- Visium HD: post-Xenium transcriptome-wide spatial profiling of 2 selected Xenium slides (4 TG sections)
+- 3D reconstruction: computational integration of serial Xenium sections into a common 3D coordinate framework
+
+
+## System requirements
+The pipeline is expected to run on standard Linux-based high-performance computing environments with R and Python installed. The full workflow was tested on Linux Rocky Linux 8.8 and above. No non-standard hardware required.
+- R version: R 4.3.2 
+- Python version: Python v3.10 and above
+
+
+## Codes and pipelines
+- Cell segmentation (2D) of the Xenium data
+- Cell annotation
+- 3D reconstruction
+- Downstream analysis
+
+### Versions of the software
+CellRanger: v7.0.0, v7.0.1, v7.1.0, and v7.2.0; 
+SoupX: v1.6.2;
+dropkick: v1.2.8;
+DoubletFinder: v2.0.4;
+scvi-tools: v1.2.0;
+NSForest: v4.0;
+Scanpy: v1.10.3;
+Velocyto: v0.17.17;
+scVelo: v0.3.3;
+escape: v2.7.3;
+hotspotsc: v1.1.3;
+hypeR: v2.10.0;
+edgeR: v4.4.0;
+variancePartition: v1.36.2;
+CellChat: v2.1;
+Enrichr: v3.4;
+cellranger-atac-2.0.0;
+ArchR package: v1.0.3;
+scGLUE: v0.3.2;
+SCENIC+ package: v1.0a2;
+Xenium Ranger: v3.1.0
+Seurat: v5.0.0 for scRNA/snRNA-related analyses and v5.3.0 for spatial-related analyses;
+Harmony: v1.2.3;
+spacexr: v2.2.1;
+Squidpy:  v1.6.2;
+MAGMA.Celltype:v2.0.8;
+LDSC: v1.0.1;
+EWCE: v1.16.0;
+susieR: v0.12.45.
+
+## Interactive Browsers
+
+
+## Questions
+
+If you have any questions, please submit an issue to this repository.
