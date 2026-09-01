@@ -1,0 +1,5 @@
+name	marker
+nonneuron11	Mpz,Ednrb,Acsbg1,Cobll1,Emcn,Gjc3,Igfbp4,Laptm5,Ly6a,Prss35,Sox10
+neuron3	Snap25,Nefh,Sncg
+combine14	Mpz,Ednrb,Acsbg1,Cobll1,Emcn,Gjc3,Igfbp4,Laptm5,Ly6a,Prss35,Sox10,Snap25,Nefh,Sncg
+glianonneuron12	Mpz,Ednrb,Acsbg1,Cobll1,Emcn,Gjc3,Igfbp4,Laptm5,Ly6a,Prss35,Sox10,Fabp7

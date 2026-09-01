@@ -35,7 +35,7 @@ The pipeline is expected to run on standard Linux-based high-performance computi
 
 scvi-tools: v1.2.0;
 Scanpy: v1.10.3;
-Space Ranger: ?;
+Space Ranger: v4.1.0;
 Xenium Ranger: v3.1.0;
 Seurat: v5.3.0;
 Harmony: v1.2.3;

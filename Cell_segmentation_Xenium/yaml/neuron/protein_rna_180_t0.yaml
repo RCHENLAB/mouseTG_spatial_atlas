@@ -1,0 +1,22 @@
+read:
+  technology: ome_tif
+patchify:
+  patch_width_pixel: 8096
+  patch_overlap_pixel: 409
+  patch_width_microns: 1000
+  patch_overlap_microns: 40
+segmentation:
+  cellpose:
+    model_type: 'cyto3'
+    diameter: 180
+    channels: ['Channel:0:3', 'Channel:0:2']
+    flow_threshold: 0.95
+    cellprob_threshold: 0
+    min_area: 0
+aggregate:
+  expand_radius_ratio: 0
+  aggregate_channels: true
+  min_intensity_ratio: 0.25
+explorer:
+  ram_threshold_gb: 8
+  pixel_size: 0.2125
