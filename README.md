@@ -31,21 +31,6 @@ The pipeline is expected to run on standard Linux-based high-performance computi
 - Post-Xenium VisiumHD analysis
 - Downstream analysis
 
-### Versions of the software
-
-scvi-tools: v1.2.0;
-Scanpy: v1.10.3;
-Space Ranger: v4.1.0;
-Xenium Ranger: v3.1.0;
-Seurat: v5.3.0;
-Harmony: v1.2.3;
-spacexr: v2.2.1;
-Squidpy:  v1.6.2;
-
-
-## Interactive Browsers
-
-We are still working on it...
 
 ## Questions
 
